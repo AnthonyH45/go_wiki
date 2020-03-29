@@ -1,0 +1,9 @@
+<html style="background-color: black; color: green; text-align: center;">
+<h1 style="background-color: green; color:black; text-align: center;">Editing {{.Title}}</h1>
+<h2 style="background-color: green; color:black; text-align: center;"><a href="/home/">Home</a></h2> 
+
+<form action="/save/{{.Title}}" method="POST" style="background-color: black; color: green; text-align: center;">
+    <div><textarea name="body" rows="20" cols="80">{{printf "%s" .Body}}</textarea></div>
+    <div><input type="submit" value="Save"></div>
+</form>
+</html>

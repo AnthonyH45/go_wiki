@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html style="background-color: black; color: green; text-align: center;">
+    <h1 style="background-color: green; color:black; text-align: center;">{{.Title}}</h1>
+    <h2 style="background-color: green; color:black; text-align: center;"><a href="/home/">Home</a></h2> 
+
+    <p>[<a href="/edit/{{.Title}}">edit</a>]</p>
+
+    <div>{{printf "%s" .Body}}</div>
+</html>

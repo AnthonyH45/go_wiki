@@ -1,0 +1,1 @@
+newPage, it works!! Now it is fully functional!!

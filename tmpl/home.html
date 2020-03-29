@@ -1,0 +1,18 @@
+<title>Home</title>
+
+<h1 style="background-color: green; color:black; text-align: center;">Welcome to the home page!</h1>
+
+<body style="background-color: black; color: green; text-align: center;">
+    This is the home page!
+    <br>
+    You can visit the /view/(page name), /edit/(page name)
+    <br>
+    If you try to edit a page that doesn't exist, it will create one for you
+    <br><br>
+    You can see the list of pages here:
+    <br><br>
+    {{range .}}
+        <a href=/view/{{.}}>{{.}}</a>
+        <br>
+    {{end}}
+</body>
