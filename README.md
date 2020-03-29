@@ -14,3 +14,6 @@ Adding styling, the home HTML template was not hard, except for the {{ }} stuff 
 
 
 Pretty fun, the regex was the hardest part
+
+Overall, I would say this was a fun experience, but did take me a few days to figure out the redirect and regex URL stuff.
+9/10, I think if someone is bored, this is a nice project to spend some time on
