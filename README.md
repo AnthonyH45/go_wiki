@@ -8,6 +8,9 @@ Steps to run:
 - `./wiki`
 - Open up a web browser, go to `localhost:8080/home/` and you should see some text.
 
-The most difficult part of this was the regex validation for URL paths
+The most difficult part of this was the regex validation for URL paths.
+
 Adding styling, the home HTML template was not hard, except for the {{ }} stuff that I have never seen before, so with some googling, I was able to find a solution to list out the txt files and add links.
+
+
 Pretty fun, the regex was the hardest part
